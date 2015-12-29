@@ -18,8 +18,7 @@ def get_names_from_file(path):
     for name_line in data_lines:
 
         fields = name_line.split(",")
-        japanese_name = structures.JapaneseName(
-             kanji=fields[0], hiragana=fields[1], gender=fields[2])
+        japanese_name = structures.JapaneseName(kanji=fields[0], hiragana=fields[1], gender=fields[2])
 
         names.append(japanese_name)
 

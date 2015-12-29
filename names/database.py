@@ -3,6 +3,7 @@ import sqlalchemy.ext.declarative
 import sqlalchemy.orm
 import sqlalchemy.event
 
+
 def enforce_foreign_key_constraint(connection, record):
     connection.execute('pragma foreign_keys=ON')
 

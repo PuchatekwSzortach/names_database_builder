@@ -2,6 +2,7 @@
 
 import names.structures
 
+
 class TestJapanaseNamesValidator(object):
 
     def test_legal_name(self):

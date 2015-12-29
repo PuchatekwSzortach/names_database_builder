@@ -4,6 +4,7 @@ import functools
 import icu
 import re
 
+
 @functools.total_ordering
 class JapaneseName(object):
     """
