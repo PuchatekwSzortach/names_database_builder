@@ -11,7 +11,7 @@ import structures
 def get_names_from_file(path):
 
     with open(path) as file:
-        data_lines = file.read().decode('utf-8').splitlines()
+        data_lines = file.read().splitlines()
 
     names = []
 
