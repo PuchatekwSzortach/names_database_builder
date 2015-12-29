@@ -2,6 +2,7 @@
 
 function run_flake8 {
 
+
     local result=`flake8 .`
 
     if [[ $result ]]; then
