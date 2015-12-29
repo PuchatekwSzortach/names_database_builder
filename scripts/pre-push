@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Required to get hook work with Sourcetree
+source ~/.bash_profile
+
 function run_flake8 {
 
 
