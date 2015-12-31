@@ -19,7 +19,7 @@ install:
 script: 
     - python --version
     - py.test
-    - py.test --cov-report xml --cov=toy_nets tests/
+    - py.test --cov-report xml --cov=names tests/
 
 after_success:
     - codecov
