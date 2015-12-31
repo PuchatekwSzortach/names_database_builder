@@ -24,7 +24,7 @@ class JapaneseName(object):
         self.japanese_collator = icu.Collator.createInstance(locale)
 
     def __repr__(self):
-        return self.combined_fields.encode('utf-8')
+        return self.combined_fields
 
     def __hash__(self):
 
